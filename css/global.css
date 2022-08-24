@@ -1,0 +1,6 @@
+@import url(colors.css);
+
+body {
+  background: var(--ghost-900);
+  font-family: "Sora", sans-serif;
+}

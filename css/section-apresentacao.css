@@ -1,0 +1,70 @@
+@import url(colors.css);
+
+
+.container-apresentacao {
+  width: 1046px;
+  height: 650px;
+  margin-left: 300px;
+  display: flex;
+  
+}
+
+.div-aprensentacao {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 292px;
+  
+
+}
+
+.ola {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--riot-main);
+}
+
+.nome {
+  margin-top: 1px;
+  font-size: 64px;
+  font-weight: 800;
+  color: var(--ghost-100)
+}
+
+.cargo {
+  font-size: 24px;
+  margin-top: 1px;
+  color: var(--gotham-main)
+}
+
+.download-cv {
+  width: 150px;
+  height: 56px;
+  margin-top: 8px;
+  color: var(--ghost-100);
+  background: transparent;
+
+  border: 1px solid #FA4753;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.7);
+
+  cursor: pointer;
+
+}
+
+
+.circle-double-arrow{
+  width: 32px;
+  height: 32px;
+  margin-top: 600px;
+
+  position: absolute;
+  
+  align-items: flex-end;
+  align-self: center;
+
+  background: transparent;
+  border:none; 
+
+
+}

@@ -1,0 +1,58 @@
+@import url(colors.css);
+
+header {
+  background: var(--riot-dark);
+  width: 300px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  border-right: 1px solid #FA4753;
+}
+
+.container-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.perfil {
+  width: 116px;
+ 
+}
+
+span {
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--ghost-200);
+  margin-top: 24px;
+  
+}
+
+.menu-button {
+  margin-top: 22px;
+  font-size: 12px;
+  font-weight: bold;
+  color: var(--ghost-200);
+
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  
+
+}
+
+
+.redes {
+  margin-top: 22px;
+
+  
+}
+
+.redes img {
+  margin-left: 6px;
+}
+  
